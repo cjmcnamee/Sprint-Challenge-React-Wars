@@ -3,7 +3,6 @@ import styled from 'styled-components';
 
 export const CoolDiv = styled.div`
   border-top: 5px dotted black;
-  background-color: rgba(0,0,0,.3);
 `;
 
 export const CoolDiv2 = styled.div`
@@ -17,12 +16,14 @@ export const CoolDiv2 = styled.div`
 
 export const CoolH1 = styled.h1`
   font-size: 2rem;
+  color: lightblue;
   text-shadow: 1px 1px 5px lightblue;
 `;
 
 export const CoolH2 = styled.h2`
-  font-size: 1rem;
-  text-shadow: 1px 1px 3px lightblue;
+  font-size: 1.2rem;
+  color: white;
+  text-shadow: 1px 1px 3px white;
 `;
 
 const Character = ({itemProp}) => {
